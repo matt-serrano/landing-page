@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header, 
+footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+/* Header CSS */
+
+/* Nav CSS */
+
+header {
+    font-family: "Roboto";
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 500px;
+}
+
+.nav-title {
+   font-size: 24px; 
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 16px;
+}
+
+/* Nav CSS */
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.awesome {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.awesome-title {
+    font-size: 48px;
+}
+
+.awesome-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.image-ph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(96, 98, 109);
+
+}
+
+/* Header CSS */
+
+
+
+
+/* Footer CSS */
+
+footer {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer CSS */
