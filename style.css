@@ -13,7 +13,7 @@ footer {
 
 /* Nav CSS */
 
-header {
+footer, header {
     font-family: "Roboto";
 }
 
@@ -45,6 +45,7 @@ nav {
     justify-content: center;
     align-content: center;
     padding-bottom: 100px;
+    gap: 100px;
 }
 
 .awesome {
@@ -84,19 +85,49 @@ nav {
 
 /* Header CSS */
 
+/* Random Information Section */
 
+.box2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+/* Random Information Section */
+
+/* Quote Section */
+
+.box3 {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 350px;
+}
+
+/* Quote Section */
+
+/* Call to Action Section */
+
+.box4 {
+    display: flex;
+    height: 300px;
+}
+
+/* Call to Action Section */
 
 
 /* Footer CSS */
 
 footer {
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    position: fixed; /* change to absolute */
     padding: 0;
     margin: 0;
     bottom: 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
 
 /* Footer CSS */
