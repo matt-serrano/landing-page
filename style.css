@@ -93,6 +93,46 @@ nav {
     height: 400px;
 }
 
+.box2-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    font-family: "Roboto";
+}
+
+.box2-subsection {
+    display: flex;
+    justify-content: center;
+}
+
+.box2-sections {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2-boxes {
+    height: 150px;
+    width: 150px;
+    outline: none;
+    box-shadow: none;
+    background-color: white;
+    border-color: #3882F6;
+    border-radius: 10px;
+    border-width: 6px;
+    border-style: solid; 
+}
+
+.box2-text {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #1F2937;
+}
+
 /* Random Information Section */
 
 /* Quote Section */
